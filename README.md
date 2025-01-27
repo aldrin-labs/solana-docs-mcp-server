@@ -1,4 +1,5 @@
 # solana-docs-server MCP Server
+[![smithery badge](https://smithery.ai/badge/@aldrin-labs/solana-docs-mcp-server)](https://smithery.ai/server/@aldrin-labs/solana-docs-mcp-server)
 
 solana docs context
 
@@ -43,6 +44,14 @@ npm run watch
 ```
 
 ## Installation
+
+### Installing via Smithery
+
+To install solana-docs-server MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@aldrin-labs/solana-docs-mcp-server):
+
+```bash
+npx -y @smithery/cli install @aldrin-labs/solana-docs-mcp-server --client claude
+```
 
 To use with Claude Desktop, add the server config:
 
