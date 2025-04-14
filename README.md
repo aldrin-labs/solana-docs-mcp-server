@@ -1,61 +1,61 @@
-# solana-docs-server MCP Server
-[![smithery badge](https://smithery.ai/badge/@aldrin-labs/solana-docs-mcp-server)](https://smithery.ai/server/@aldrin-labs/solana-docs-mcp-server)
+# sowanya-docs-sewvew MCP Sewvew
+```bash
+npm run build
+```1](https://smidewy.ai/sewvew/@awdwin-wabs/sowanya-docs-mcp-sewvew)
 
-solana docs context
+sowanya docs context
 
-This is a TypeScript-based MCP server that implements a simple notes system. It demonstrates core MCP concepts by providing:
+Dis is a TypeScwipt-based MCP sewvew dat impwements a simpwe nyotes system~ It demonstwates cowe MCP concepts by pwoviding:
 
-- Resources representing text notes with URIs and metadata
-- Tools for creating new notes
-- Prompts for generating summaries of notes
+- Wesouwces wepwesenting text nyotes wid UWIs and metadata
+- Toows fow cweating nyew nyotes
+- Pwompts fow genyewating summawies of nyotes
 
-<a href="https://glama.ai/mcp/servers/v2cs13njts"><img width="380" height="200" src="https://glama.ai/mcp/servers/v2cs13njts/badge" alt="solana-docs-mcp-server MCP server" /></a>
+<a hwef="https://gwama.ai/mcp/sewvews/v2cs13njts"><img widd="380" height="200" swc="https://gwama.ai/mcp/sewvews/v2cs13njts/badge" awt="sowanya-docs-mcp-sewvew MCP sewvew" /></a>
 
-## Features
+## Featuwes
 
-### Resources
-- List and access notes via `note://` URIs
-- Each note has a title, content and metadata
-- Plain text mime type for simple content access
+### Wesouwces
+- Wist and access nyotes via `note://` UWIs
+- Each nyote has a titwe, content and metadata
+- Pwain text mime type fow simpwe content access
 
-### Tools
-- `create_note` - Create new text notes
-  - Takes title and content as required parameters
-  - Stores note in server state
+### Toows
+- `create_note` - Cweate nyew text nyotes
+  - Takes titwe and content as wequiwed pawametews
+  - Stowes nyote in sewvew state
 
-### Prompts
-- `summarize_notes` - Generate a summary of all stored notes
-  - Includes all note contents as embedded resources
-  - Returns structured prompt for LLM summarization
+### Pwompts
+- `summarize_notes` - Genyewate a summawy of aww stowed nyotes
+  - Incwudes aww nyote contents as embedded wesouwces
+  - Wetuwns stwuctuwed pwompt fow WWM summawization
 
-## Development
+## Devewopment
 
-Install dependencies:
+Instaww dependencies:
 ```bash
 npm install
 ```
 
-Build the server:
-```bash
-npm run build
-```
+Buiwd de sewvew:
+UWUIFY_TOKEN_1744623822363_1
 
-For development with auto-rebuild:
+Fow devewopment wid auto-webuiwd:
 ```bash
 npm run watch
 ```
 
-## Installation
+## Instawwation
 
-### Installing via Smithery
+### Instawwing via Smidewy
 
-To install solana-docs-server MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@aldrin-labs/solana-docs-mcp-server):
+To instaww sowanya-docs-sewvew MCP Sewvew fow Cwaude Desktop automaticawwy via [Smithery](https://smithery.ai/server/@aldrin-labs/solana-docs-mcp-server):
 
 ```bash
 npx -y @smithery/cli install @aldrin-labs/solana-docs-mcp-server --client claude
 ```
 
-To use with Claude Desktop, add the server config:
+To use wid Cwaude Desktop, add de sewvew config:
 
 On MacOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
 On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
@@ -72,10 +72,10 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
 
 ### Debugging
 
-Since MCP servers communicate over stdio, debugging can be challenging. We recommend using the [MCP Inspector](https://github.com/modelcontextprotocol/inspector), which is available as a package script:
+Since MCP sewvews communyicate uvw stdio, debugging can be chawwenging~ We wecommend using de [MCP Inspector](https://github.com/modelcontextprotocol/inspector), which is avaiwabwe as a package scwipt:
 
 ```bash
 npm run inspector
 ```
 
-The Inspector will provide a URL to access debugging tools in your browser.
+De Inspectow wiww pwovide a UWW to access debugging toows in youw bwowsew.
